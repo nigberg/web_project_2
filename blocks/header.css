@@ -1,10 +1,11 @@
 .header{
-background-color: #FFFFFF;
-background-image: url(../images/background_header.svg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-height: 100vh;
+  background-color: #FFFFFF;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }
 .header__logo{
   position: absolute;
@@ -48,7 +49,6 @@ height: 100vh;
   z-index: 1;
   max-width: 680px;
   margin: 0;
-
 }
 .header__image{
   position: absolute;
@@ -74,5 +74,4 @@ height: 100vh;
   position: absolute;
   right: 80px;
   bottom: 40px;
-
   }
