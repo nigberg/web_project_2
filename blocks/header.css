@@ -18,6 +18,9 @@
   right: 80px;
 }
 .header__title{
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
   position: absolute;
   left: 80px;
   top: 252px;
@@ -31,12 +34,6 @@
   font-size: 60px;
   line-height: 72px;
   color: #2F80ED;
-}
-.header__title-second-line{
-  display: block;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
 }
 .header__description{
   font-family: "Noto Serif", "Times New Roman", serif;

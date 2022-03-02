@@ -21,6 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 7px;
   margin: 0 0 16px 0;
   }
 .card__list-divider{
