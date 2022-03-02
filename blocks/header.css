@@ -4,34 +4,40 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   position: relative;
+  height: 750px;
+  padding: 30px 80px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .header__logo{
   position: absolute;
   top: 30px;
   left: 30px;
+  width: 125px;
+  height: 142px;
 }
-.header__nav{
-  position: absolute;
-  top: 30px;
-  right: 80px;
-}
+
 .header__title{
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  position: absolute;
-  left: 80px;
-  top: 252px;
+  position: relative;
   z-index: 1;
-  margin: 0;
+  margin: 202px 0 0 0;
 }
 .header__span-accent{
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
+  font-weight: normal;
   line-height: 72px;
   color: #2F80ED;
 }
@@ -40,12 +46,10 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
-  left: 80px;
-  top: 424px;
+  position: relative;
   z-index: 1;
   max-width: 680px;
-  margin: 0;
+  margin: 28px 0 0 0;
 }
 .header__image{
   position: absolute;
@@ -55,9 +59,11 @@
   height: 568px;
 }
 .header__info-container{
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__hours{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,10 +71,6 @@
   }
 .header__paragraph{
   font-weight: 500;
+  color: #838383;
   margin: 0;
-  }
-.header__paragraph_type_address{
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
   }
