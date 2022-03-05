@@ -29,8 +29,7 @@
 .menu__cards{
   display: flex;
   justify-content: center;
-  row-gap: 50px;
-  column-gap: 100px;
+  gap: 100px;
   align-items: flex-start;
   flex-wrap: wrap;
 }
