@@ -14,7 +14,7 @@
   position: relative;
   background-color: #0a2750;
   color: #FFF;
-  height: 270px;
+  min-height: 270px;
   overflow: hidden;
   display: flex;
   align-items: flex-start;
@@ -33,11 +33,6 @@
 
 .about__content{
   max-width: 50%;
-  padding-top: 19px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 260px;
 }
 .about__paragraph{
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -45,6 +40,9 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 30px 0;
+}
+.about__paragraph:last-of-type{
   margin: 0;
 }
 .about__circle{

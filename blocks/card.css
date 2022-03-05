@@ -1,6 +1,9 @@
 .card{
   width: 450px;
 }
+.card:nth-child(3){
+  margin: 0 200px;
+}
 .card__title{
   font-weight: bold;
   font-size: 20px;
@@ -13,7 +16,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  }
+}
 .card__list-item{
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -23,7 +26,7 @@
   align-items: flex-end;
   gap: 7px;
   margin: 0 0 16px 0;
-  }
+}
 .card__list-divider{
   flex-grow: 1;
   margin: 0;
